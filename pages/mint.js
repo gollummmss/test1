@@ -125,12 +125,12 @@ export default function Mint() {
     <div className="min-h-screen h-full w-full overflow-hidden flex flex-col items-center justify-center bg-brand-background ">
       <div className="relative w-full h-full flex flex-col items-center justify-center">
         <img
-          src="/images/blur.jpeg"
+          src="/images/BG-1.jpg"
           className="animate-pulse-slow absolute inset-auto block w-full min-h-screen object-cover"
         />
 
         <div className="flex flex-col items-center justify-center h-full w-full px-2 md:px-10">
-          <div className="relative z-1 md:max-w-3xl w-full bg-gray-900/90 filter backdrop-blur-sm py-4 rounded-md px-2 md:px-10 flex flex-col items-center">
+          <div className="relative z-1 md:max-w-3xl w-full bg-yellow-900/90 filter backdrop-blur-sm py-4 rounded-md px-2 md:px-10 flex flex-col items-center">
             {wallet && (
               <button
                 className="absolute right-4 bg-indigo-600 transition duration-200 ease-in-out font-chalk border-2 border-[rgba(0,0,0,1)] shadow-[0px_3px_0px_0px_rgba(0,0,0,1)] active:shadow-none px-4 py-2 rounded-md text-sm text-white tracking-wide uppercase"
@@ -164,7 +164,7 @@ export default function Mint() {
                 </div>
 
                 <img
-                  src="/images/13.png"
+                  src="/images/20.png"
                   className="object-cover w-full sm:h-[280px] md:w-[250px] rounded-md"
                 />
               </div>
