@@ -98,7 +98,7 @@ export default function Home() {
             {/* GollumTown Image */}
             <img
               src="/images/gollum.png"
-              className="animate-ping-slow w-64 h-64 rounded-md object-cover"
+              className=" w-80 h-80 rounded-md object-cover"
             />
 
             <div className="flex flex-col md:items-start items-center justify-center text-center font-coiny text-gray-800 px-4 md:px-0 py-10 mt-14">
