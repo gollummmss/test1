@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        coiny: ['Coiny', ...defaultTheme.fontFamily.sans]
+        coiny: ['Mountains of Christmas', ...defaultTheme.fontFamily.sans]
       },
       colors: {
         'brand-purple': 'var(--clr-purple)',
