@@ -164,7 +164,7 @@ export default function Mint() {
                 </div>
 
                 <img
-                  src="/images/20.png"
+                  src="/images/mintpage.png"
                   className="object-cover w-full sm:h-[280px] md:w-[250px] rounded-md"
                 />
               </div>
@@ -227,7 +227,7 @@ export default function Mint() {
                     <div className="flex items-center space-x-3">
                       <p>
                         {Number.parseFloat(config.price * mintAmount).toFixed(
-                          2
+                          4
                         )}{' '}
                         ETH
                       </p>{' '}
