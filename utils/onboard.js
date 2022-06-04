@@ -4,7 +4,7 @@ import walletConnectModule from '@web3-onboard/walletconnect'
 import coinbaseModule from '@web3-onboard/coinbase'
 import fortmaticModule from '@web3-onboard/fortmatic'
 
-import ApeIcon from '../Gollum'
+import GollumIcon from '../Gollum'
 
 const RPC_URL = process.env.NEXT_PUBLIC_ALCHEMY_RPC_URL
 
