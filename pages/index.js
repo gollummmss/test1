@@ -97,7 +97,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row md:space-x-16 space-y-10 items-center mt-20 w-full">
             {/* GollumTown Image */}
             <img
-              src="/images/gollum.png"
+              src="/images/mainpage.png"
               className=" w-80 h-80 rounded-md object-cover"
             />
 
