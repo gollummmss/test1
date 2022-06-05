@@ -107,8 +107,8 @@ export default function Home() {
               </h2>
 
               <p className="mt-6 text-2xl">
-                {`Hooman, have you seen my monkee burgarr and Gary PeeeeeEE Soaurcee?
-                Stake me and get sum of BOTH                      
+                {`Hooman, wunt sum monkee burgarr and Gary PeeeeeEE Soaurcee?
+                Stake Gollumz and get sum of BOTH                      
                 `}
               </p>
               <p2 className="mt-6 text-3xl">
