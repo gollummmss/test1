@@ -30,7 +30,7 @@ export default function Home() {
           <nav aria-label="Contact Menu">
             <ul className="flex items-center space-x-4 md:space-x-6">
               <li className="cursor-pointer">
-                <a href="https://opensea.io" target="_blank" rel="noreferrer">
+                <a href="https://opensea.io/collection/gollumtownwtf" target="_blank" rel="noreferrer">
                   <img src="/images/opensea.png"
                     className="animate-pulse w-12 h-12 md:w-16 md:h-16"
                     viewBox="0 0 90 90"
