@@ -6,36 +6,55 @@ import { config } from '../dapp.config'
 
 export default function Home() {
   return (
-    <div className="min-h-screen h-full w-full flex flex-col bg-brand-background overflow-hidden">
+    <div className="min-h-screen h-full w-full flex flex-col bg-brand-light overflow-auto">
+      <div className=" w-full flex flex-col">
+        <img
+          src="/images/BTBG.png"
+          className="absolute inset-auto w-full"
+        >
+
+        </img>
+        </div>
+       
+
+
       <Head>
         <title>{config.title}</title>
         <meta name="description" content={config.description} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="relative w-full h-full flex flex-col items-center justify-center">
- 
-      <header className="min-w-full text-gray-800 py-14 px-4 md:px-0 z-1">
+
+      <header className="min-w-full sticky">
         <div className="flex items-center container mx-auto max-w-5xl justify-between h-full">
-          {/* Logo */}
-          <Link href="#">
-            <a className="font-coiny text-xl md:text-3xl font-bold">
-              <span className="bg-gradient-to-br from-brand-green to-brand-light pr-2 bg-clip-text text-transparent ">
-                Gollum
-              </span>
-              Town
-            </a>
-          </Link>
+       
+        
 
           {/* Opensea Twitter Discord Links */}
-          <nav aria-label="Contact Menu">
-            <ul className="flex items-center space-x-4 md:space-x-6">
+          <nav aria-label="Contact Menu"
+               className="sticky">
+            <ul className="flex items-center space-x-20 ">
               <li className="cursor-pointer">
-                <a href="https://opensea.io/collection/gollumtownwtf" target="_blank" rel="noreferrer">
+                <a href="https://opensea.io" target="_blank" rel="noreferrer">
                   <img src="/images/opensea.png"
-                    className="animate-pulse w-12 h-12 md:w-16 md:h-16"
-                    viewBox="0 0 90 90"
-                    fill="none"
-                    
+                       className="w-10 h-10 md:w-12 md:h-12"
+                       viewBox="0 0 90 90"
+                       >
+                  </img>
+                  
+                </a>
+              </li>
+
+              <li className="cursor-pointer">
+                <a
+                  href="https://twitter.com/Bongtownwtf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/images/twitter.png"
+                    className="w-10 h-10 md:w-12 md:h-12"
+                    viewBox="0 0 512 512"
+
                   >
                     
                   </img>
@@ -44,39 +63,27 @@ export default function Home() {
 
               <li className="cursor-pointer">
                 <a
-                  href="https://twitter.com/Gollumtownwtf"
+                  href="https://discord.gg/rAFdkCwn"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src="/images/twitter.png"
-                    className="animate-pulse w-12 h-12 md:w-16 md:h-16"
-
-                    strokeWidth="0"
-                    viewBox="0 0 512 512"
-                    
+                  <img
+                    src="/images/x2y2.png"
+                    className="w-10 h-10 md:w-12 md:h-12"
+                    viewBox="0 0 448 512"
                   >
-
                   </img>
                 </a>
               </li>
-
-             
             </ul>
           </nav>
         </div>
       </header>
-      
-      
-      
-          
-      
       <div className="h-full w-full container max-w-5xl mx-auto flex flex-col items-center pt-4">
-        
         <div className="flex flex-col items-center max-w-4xl w-full">
           <Link href="/mint" passHref>
-            <a className="mt-16 font-coiny uppercase inline-flex items-center px-6 oy-2 text-sm sm:text-2xl md:text-3xl font-medium text-center rounded text-black hover:bg-gray-600 hover:text-white">
-              
-              CuUM HERE Hooman
+            <a className="mt-16 font-coiny uppercase inline-flex items-center px-6 oy-2 text-sm sm:text-2xl md:text-3xl font-medium text-center rounded text-rose-500 hover:bg-rose-600 hover:text-white">
+              Grab a bong
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-6 h-6 ml-2 mt-0.5"
@@ -93,43 +100,16 @@ export default function Home() {
               </svg>
             </a>
           </Link>
-
-          <div className="flex flex-col md:flex-row md:space-x-16 space-y-10 items-center mt-20 w-full">
-            {/* GollumTown Image */}
-            <img
-              src="/images/mainpage.png"
-              className=" w-80 h-80 rounded-md object-cover"
-            />
-
-            <div className="flex flex-col md:items-start items-center justify-center text-center font-coiny text-gray-800 px-4 md:px-0 py-10 mt-14">
-              <h2 className="font-bold text-2xl md:text-4xl uppercase">
-                Gollums
-              </h2>
-
-              <p className="mt-6 text-2xl">
-                {`Hooman, wunt sum monkee burgarr and Gary PeeeeeEE Soaurcee?
-                Stake Gollumz and get sum of BOTH                      
-                `}
-              </p>
-              <p2 className="mt-6 text-3xl">
-              
-                {`We Gollums the tiny pieces of goblintown
-                69% monee to sweep goblins and put in vault
-                We Gollums vote how to use da monee          
-                `}
-              </p2>
-              
-              
-            </div>
           </div>
-        </div>
+          </div>
+      
+          
+
       </div>
 
-    </div>
+ 
+
       
-    </div>
-    
-    
+
   )
 }
-
