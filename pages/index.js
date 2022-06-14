@@ -51,7 +51,7 @@ export default function Home() {
                   rel="noreferrer"
                 >
                   <img
-                    src="/images/twitter.png"
+                    src="/images/Twitter.png"
                     className="w-10 h-10 md:w-12 md:h-12"
                     viewBox="0 0 512 512"
 
