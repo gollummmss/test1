@@ -9,7 +9,7 @@ export default function Home() {
     <div className="min-h-screen h-full w-full flex flex-col bg-brand-light overflow-auto">
       <div className=" w-full flex flex-col">
         <img
-          src="/images/desktop.png"
+          src="/images/Desktop.png"
           className="absolute inset-auto w-full"
         >
 
