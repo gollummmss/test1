@@ -6,7 +6,7 @@ import { config } from '../dapp.config'
 
 export default function Home() {
   return (
-    <div className="min-h-screen h-full w-full flex flex-col bg-brand-light overflow-auto">
+    <div className="min-h-screen h-full w-full flex flex-col bg-brand-white overflow-auto">
       <div className=" w-full flex flex-col">
         <img
           src="/images/Desktop.png"
